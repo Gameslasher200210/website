@@ -1,15 +1,26 @@
 .top {
     display: flex;
+    padding: 0;
+    margin: 0;
     align-items: center; /* Vertically align content */
     justify-content: space-between; /* Distribute content evenly */
-    padding: 10px;
     background-color: #333333;
-    
+    border-bottom: #0066B8 solid;
+       
 }
+
+a{
+    text-decoration: none; /* Remove underlines */
+    color: #007bff;
+}
+
 
 img {
     width: 70px; /* Set the desired width */
     height: auto; /* Maintain the aspect ratio */
+}
+.menu-bar li {
+    margin-right: 40px;
 }
 
 .menu-bar {
@@ -19,9 +30,6 @@ img {
     display: flex;
 }
 
-.menu-bar li {
-    margin-right: 20px;
-}
 
 .menu-bar li:last-child {
     margin-right: 0;
@@ -30,8 +38,66 @@ img {
 .menu-bar li a {
     text-decoration: none; /* Remove underlines */
     color: lightgrey; /* Set default link color */
-    transition: color 0.3s; /* Add smooth transition for color change */
+    transition: color 0.1s; /* Add smooth transition for color change */
 }
 .menu-bar li a:hover {
     color: white; 
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    
+}
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+ul, ol {
+    margin: 15px 0;
+    padding-left: 20px;
+    padding-bottom: 15px; /* Add spacing below the list */
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+    margin: 15px 0;
+}
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #0066B8;
+    margin-top: 15px;
+}
+.download{
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }

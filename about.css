@@ -1,0 +1,93 @@
+
+
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #0066B8;
+    
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-media-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media-links li {
+    margin-bottom: 10px;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.social-media-links a:hover {
+    color: #e5e5e5;
+}
+
+
+
+/* Additional styles can be added as needed */
